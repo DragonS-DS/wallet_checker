@@ -1,9 +1,0 @@
-README.md
-setup.py
-wallet_checker/__init__.py
-wallet_checker/balance_checker.py
-wallet_checker.egg-info/PKG-INFO
-wallet_checker.egg-info/SOURCES.txt
-wallet_checker.egg-info/dependency_links.txt
-wallet_checker.egg-info/requires.txt
-wallet_checker.egg-info/top_level.txt

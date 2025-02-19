@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wallet_checker"
-version = "0.1.0"
+version = "2.0"
 description = "A Python library to check Solana and Ethereum balances using a seed phrase"
-authors = [{ name = "DragonS", email = "" }]
+authors = [{ name = "DragonS" }]
 license = { file = "LICENSE" }
 readme = "README.md"
 dependencies = [

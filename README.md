@@ -1,11 +1,23 @@
 # Wallet Checker
 
-A Python library to check Solana and Ethereum balances using a seed phrase.
+A Python library and command-line program to check Solana and Ethereum balances
+derived from a mnemonic phrase.
 
 ## Installation
 ```sh
 pip install wallet_checker
 ```
+
+## Command-line usage
+```sh
+wallet-checker
+```
+
+The program securely prompts for the mnemonic without echoing it to the terminal,
+then displays balances for the first standard Solana and Ethereum derivation paths.
+Use `wallet-checker --json` for machine-readable output. Avoid passing a mnemonic
+on the command line, where it could be retained in shell history or visible to
+other local processes.
 
 ## Usage
 ```python

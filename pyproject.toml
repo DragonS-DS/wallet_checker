@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wallet_checker"
-version = "2.0"
-description = "A Python library to check Solana and Ethereum balances using a seed phrase"
+version = "2.1"
+description = "Check Solana and Ethereum balances derived from a mnemonic"
 authors = [{ name = "DragonS" }]
-license = { file = "LICENSE" }
+license = "MIT"
+license-files = ["LICENCE"]
 readme = "README.md"
 dependencies = [
     "solana",
@@ -23,3 +24,6 @@ packages = ["wallet_checker"]
 [project.urls]
 Homepage = "https://github.com/DragonS-DS/wallet_checker"
 Repository = "https://github.com/DragonS-DS/wallet_checker"
+
+[project.scripts]
+wallet-checker = "wallet_checker.cli:main"
